@@ -1,0 +1,100 @@
+.frame_dash07_table{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.frame_dash07_table table{
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--Black-12, #1A181E);
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.frame_dash07_table table thead{
+    height: 40px;
+    background: var(--Black-95, #F2F2F2);
+}
+
+th.order_id{
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+th.th_order_head{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.order_id {
+    border-bottom-left-radius: 10px;
+}
+  
+
+th{
+    width: 150.67px;
+    height: 20px;
+    margin-left: 12px;
+    text-align: left;
+    
+}
+
+td {
+    width: 150.67px;
+    height: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+
+th.th_order_head,
+td.th_order{
+    text-align: right;
+    padding: 8px;
+}
+
+.order_id{
+    padding: 8px;
+    color: var(--Black-30, #4D4D4D);
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.order_satus,
+.order_trans,
+.order_refund,
+.th_order_head{
+    color: var(--Black-30, #4D4D4D);
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+td.order_id{
+    color: var(--Primary-Blue, #146EB4);
+    font-family: var(--font-galano);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+td i{
+    margin-right: 6px;
+}
+
+
+
+tbody tr{
+    height: 48px;
+}

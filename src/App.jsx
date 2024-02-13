@@ -1,3 +1,5 @@
+import VideoListTable from "./COMPONENTS/VideoListTable"
+import VideosList from "./COMPONENTS/VideosList"
 
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
 
   return (
     <>
-
+      {/* <VideosList/> */}
+      <VideoListTable/>
     </>
   )
 }
